@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@200&family=Heebo:wght@100&family=Kanit:wght@600&family=Montserrat&family=Prompt:ital,wght@0,200;1,300&family=Source+Sans+Pro:ital,wght@0,300;1,300&family=Square+Peg&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+   --preto: #000; 
+   --branco: #fff;
+   --laranja: #ff7a00;
+    --verde: #003e47;
+}
+
+body{
+    background-color: var(--preto);
+    color: var(--branco);
+    font-family: 'Anek Tamil', sans-serif;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#container{
+    border: 2px solid var(--laranja) ;
+    border-radius: 8px;
+    position: relative;
+    justify-content: space-around;
+    text-align: center;
+    width: 350px;
+    height: 480px;
+    padding: 5px;   
+}
+
+#container img{
+    height: 170px;
+    width: 320px;
+    margin: 10px;
+}
+
+#container i {
+    color: var(--branco);
+}
+
+#container input{
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid var(--laranja);
+    background-color: var(--preto);
+    color: var(--branco);
+    width: 250px;
+    margin: 10px;
+    transition: all 0.5s;
+}
+
+#container input:focus,
+#container input::selection,
+#container input:hover{
+    background-color: var(--verde);
+    border: 1px solid var(--branco);
+    color: var(--branco);
+    transition: all 0.5s;
+}
+
+#container #links-bar ul{
+    list-style: none;
+    margin: 20px;
+}
+
+#container #links-bar ul li a{
+    text-decoration: none;
+    color: var(--white);
+    transition: all 0.5s;
+}
+
+#container #links-bar ul li a:hover{
+    color: var(--laranja);
+    transition: all 0.5s;
+}
+
+#container #links-bar ul li{
+    text-align: left;
+}
+
+#container #btn-entrar{
+    background-color: var(--preto);
+    border: 1px solid var(--laranja);
+    border-radius: 5px;
+    color: var(--branco);
+    width: 100px;
+    height: 30px;
+    transition: all 0.5s;
+    margin-top: 20px;
+}
+
+#container #btn-entrar:hover{
+    background-color: var(--verde);
+    border: 1px solid var(--branco);
+    transition: all 0.5s ease-in;
+}
+
+@media (max-width: 400px){
+    
+    #container{
+        width: 300px;
+    }
+
+    #container img{
+        height: 130px;
+        width: 270px;
+    }
+    #container input{
+        width: 220px;
+    }
+
+    #container #btn-entrar{
+        width: 80px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --black: #000;
+    --white: #fff;
+    --orange: #ff7a00;
+    --green: #003e47;
+}
+
+body{
+    background-color: var(--black);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    border: 2px solid var(--orange);
+    border-radius: 6px;
+    width: 350px;
+    height: 250px;
+}
+
+.container #logo{
+    height: 70px;
+    width: 70px;
+}
+*/
